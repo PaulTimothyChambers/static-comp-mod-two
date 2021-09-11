@@ -10,6 +10,25 @@ body {
   display: flex;
 }
 
+.nav-bar {
+  height: 25%;
+  width: 100%;
+  background-color: #2B3A67;
+}
+
+.nav-bar__logo-name,
+.admin-user-dropdown,
+.navigation-menu__button,
+.admin-user-dropdown__dropdown {
+  color: #E6EFE9;
+}
+
+.navigation-menu__button,
+.admin-user-dropdown__dropdown {
+  background-color: #2B3A67;
+  border-style: none;
+}
+
 .logo-name__logo,
 .nav-bar__shares-icon,
 .nav-bar__playlist-icon,
