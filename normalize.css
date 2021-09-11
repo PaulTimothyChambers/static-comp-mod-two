@@ -5,15 +5,35 @@
 
 #363537 dark
 #2B3A67 dark  */
+font-family: 'Fuggles', cursive;
+vfont-family: 'Kristi', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Megrim', cursive;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Qahiri', sans-serif;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'WindSong', cursive;
+
 
 body {
   display: flex;
 }
 
 .nav-bar {
+  display: flex;
   height: 25%;
   width: 100%;
   background-color: #2B3A67;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.nav-bar__navigation-menu {
+  display: flex;
+  position: relative;
+  margin: 75px 0px 0px 61px;
+  width: 529px;
+  justify-content: space-between;
+  font-size: 19px;
 }
 
 .nav-bar__logo-name,
@@ -23,37 +43,82 @@ body {
   color: #E6EFE9;
 }
 
+.nav-bar__logo-name {
+  font-size: 28px;
+  position: relative;
+  margin: 95px 0px 0px 570px;
+  display: flex;
+  width: 434px;
+  z-index: 1;
+}
+
 .navigation-menu__button,
 .admin-user-dropdown__dropdown {
   background-color: #2B3A67;
   border-style: none;
 }
 
+.admin-user-dropdown__dropdown {
+  display: flex;
+  position: relative;
+  width: 20px;
+  margin: -20px 0px 0px 411px;
+}
+
+.admin-user-dropdown__text {
+  display: flex;
+  position: relative;
+  margin: -27px 0px 0px 207px;
+}
+
+.admin-user-dropdown {
+  display: flex;
+  margin: 6px 12px 0px -606px;
+  flex-direction: column;
+}
+
+.nav-bar__nav-bar-images {
+  display: flex;
+  margin: 93px 0px 0px 20px;
+}
+
 .logo-name__logo,
-.nav-bar__shares-icon,
-.nav-bar__playlist-icon,
-.nav-bar__video-icon-one {
-  position: absolute;
+.nav-bar-images__shares-icon,
+.nav-bar-images__playlist-icon,
+.nav-bar-images__video-icon {
+  position: relative;
   height: 50px;
   width: 50px;
 }
 
-.nav-bar__video-icon-two {
-  height: 25px;
-  width: 25px;
+.nav-bar-images__playlist-icon {
+  margin: 5px 0px 0px 97px;
+}
+
+.nav-bar-images__video-icon {
+  height: 35px;
+  width: 35px;
+  margin: 7px 0px 0px 133px;
 }
 
 .logo-name__logo {
   width: 100px;
+  position: relative;
+  margin: -9px 0px 0px -94px;
+  display: flex;
+  z-index: -1;
 }
 
-.nav-bar__shares-icon {
+.nav-bar-images__shares-icon {
   width: 25px;
+  margin: -1px 0px 0px -1567px;
 }
 
-.nav-bar__user-icon {
+.admin-user-dropdown__user-icon {
   height: 30px;
   width: 30px;
+  position: relative;
+  margin: 7px 0px 0px 161px;
 }
 
 /* Document
