@@ -5,26 +5,45 @@
 
 #363537 dark
 #2B3A67 dark  */
-font-family: 'Fuggles', cursive;
-vfont-family: 'Kristi', cursive;
+/* font-family: 'Fuggles', cursive;
+font-family: 'Kristi', cursive;
 font-family: 'Major Mono Display', monospace;
 font-family: 'Megrim', cursive;
 font-family: 'Palette Mosaic', cursive;
 font-family: 'Qahiri', sans-serif;
 font-family: 'Reenie Beanie', cursive;
-font-family: 'WindSong', cursive;
-
+font-family: 'WindSong', cursive; */
 
 body {
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+  overscroll-behavior-y: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: default;
+  padding-bottom: 400px;
+}
+
+main {
+  display: flex;
+  background-color: #E6EFE9;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .nav-bar {
   display: flex;
   height: 25%;
-  width: 100%;
+  max-width: 100%;
   background-color: #2B3A67;
   font-family: 'Hachi Maru Pop', cursive;
+}
+
+.nav-bar__logo {
+  width: 57%;l
 }
 
 .nav-bar__navigation-menu {
@@ -46,9 +65,9 @@ body {
 .nav-bar__logo-name {
   font-size: 28px;
   position: relative;
-  margin: 95px 0px 0px 570px;
+  margin: 95px 0px 0px 580px;
   display: flex;
-  width: 434px;
+  width: 255px;
   z-index: 1;
 }
 
@@ -73,7 +92,7 @@ body {
 
 .admin-user-dropdown {
   display: flex;
-  margin: 6px 12px 0px -606px;
+  margin: 6px 12px 0px -443px;
   flex-direction: column;
 }
 
@@ -92,13 +111,13 @@ body {
 }
 
 .nav-bar-images__playlist-icon {
-  margin: 5px 0px 0px 97px;
+  margin: 5px 0px 0px 100px;
 }
 
 .nav-bar-images__video-icon {
   height: 35px;
   width: 35px;
-  margin: 7px 0px 0px 133px;
+  margin: 7px 0px 0px 137px;
 }
 
 .logo-name__logo {
@@ -111,7 +130,7 @@ body {
 
 .nav-bar-images__shares-icon {
   width: 25px;
-  margin: -1px 0px 0px -1567px;
+  margin: -1px 0px 0px -1394px;
 }
 
 .admin-user-dropdown__user-icon {
@@ -119,6 +138,25 @@ body {
   width: 30px;
   position: relative;
   margin: 7px 0px 0px 161px;
+}
+
+.card-top {
+  height: 550px;
+  width: 347px;
+  box-shadow: 0 0px 2px 1px rgb(444 0 0 / 20%), 0 0px 3px 1px rgb(759 0 0 / 33%);
+  margin-top: 150;
+}
+
+.card-bottom {
+  height: 550px;
+  width: 347px;
+  box-shadow: 0 0px 2px 1px rgb(444 0 0 / 20%), 0 0px 3px 1px rgb(759 0 0 / 33%);
+  margin-top: 10px;
+}
+
+.image-container__image {
+  height: 30%;
+  width: 100%;
 }
 
 /* Document
@@ -143,15 +181,12 @@ html {
 
 body {
   margin: 0;
+  scrollbar-width: none;
 }
 
 /**
  * Render the `main` element consistently in IE.
  */
-
-main {
-  display: block;
-}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
