@@ -343,9 +343,10 @@ template {
 .text__bottom-text-one-card-one,
 .text__bottom-text-two-card-one,
 .text__bottom-text-three-card-one,
-.text__bottom-card-number-card-one,
-.text__top-text-one-four-card-one {
+.text__bottom-card-number-card-one {
   font-family: 'Kristi', cursive;
+  margin-left: 10px;
+  font-size: 18px;
 }
 
 .text__top-text-one-card-two,
@@ -353,9 +354,9 @@ template {
 .text__bottom-text-one-card-two,
 .text__bottom-text-two-card-two,
 .text__bottom-text-three-card-two,
-.text__bottom-card-number-card-two,
-.text__top-text-one-four-card-two {
+.text__bottom-card-number-card-two {
   font-family: 'Megrim', cursive;
+  margin-left: 10px;
 }
 
 .text__top-text-one-card-three,
@@ -363,9 +364,10 @@ template {
 .text__bottom-text-one-card-three,
 .text__bottom-text-two-card-three,
 .text__bottom-text-three-card-three,
-.text__bottom-card-number-card-three,
-.text__top-text-one-four-card-three {
+.text__bottom-card-number-card-three {
   font-family: 'Fuggles', cursive;
+  margin-left: 10px;
+  font-size: 19px;
 }
 
 .text__top-text-one-card-four,
@@ -373,9 +375,9 @@ template {
 .text__bottom-text-one-card-four,
 .text__bottom-text-two-card-four,
 .text__bottom-text-three-card-four,
-.text__bottom-card-number-card-four,
-.text__top-text-one-four-card-four {
+.text__bottom-card-number-card-four {
   font-family: 'Major Mono Display', monospace;
+  margin-left: 10px;
 }
 
 .text__top-text-one-card-five,
@@ -383,9 +385,10 @@ template {
 .text__bottom-text-one-card-five,
 .text__bottom-text-two-card-five,
 .text__bottom-text-three-card-five,
-.text__bottom-card-number-card-five,
-.text__top-text-one-four-card-five {
+.text__bottom-card-number-card-five {
   font-family: 'Palette Mosaic', cursive;
+  margin-left: 10px;
+  font-size: 18px;
 }
 
 .text__top-text-one-card-six,
@@ -393,9 +396,10 @@ template {
 .text__bottom-text-one-card-six,
 .text__bottom-text-two-card-six,
 .text__bottom-text-three-card-six,
-.text__bottom-card-number-card-six,
-.text__top-text-one-four-card-six {
+.text__bottom-card-number-card-six {
   font-family: 'Qahiri', sans-serif;
+  margin-left: 10px;
+  font-size: 19px;
 }
 
 .text__top-text-one-card-seven,
@@ -403,9 +407,9 @@ template {
 .text__bottom-text-one-card-seven,
 .text__bottom-text-two-card-seven,
 .text__bottom-text-three-card-seven,
-.text__bottom-card-number-card-seven,
-.text__top-text-one-four-card-seven {
+.text__bottom-card-number-card-seven {
   font-family: 'WindSong', cursive;
+  margin-left: 10px;
 }
 
 .text__top-text-one-card-eight,
@@ -413,9 +417,10 @@ template {
 .text__bottom-text-one-card-eight,
 .text__bottom-text-two-card-eight,
 .text__bottom-text-three-card-eight,
-.text__bottom-card-number-card-eight,
-.text__top-text-one-four-card-eight {
+.text__bottom-card-number-card-eight {
   font-family: 'Reenie Beanie', cursive;
+  margin-left: 10px;
+  font-size: 19px;
 }
 
 .text__top-text-two-card-one,
@@ -436,6 +441,10 @@ template {
 .text__top-text-two-card-four {
   font-size: 11px;
   margin: 10px 0px 0px 12px
+}
+
+.bot {
+  margin: 148px 0px 0px 15px;
 }
 
 .url__url-text {
