@@ -301,128 +301,120 @@ template {
   background-color: #FAFAFA;
 }
 
-/* font-family: 'Fuggles', cursive;
-font-family: 'Kristi', cursive;
-font-family: 'Major Mono Display', monospace;
-font-family: 'Megrim', cursive;
-font-family: 'Palette Mosaic', cursive;
-font-family: 'Qahiri', sans-serif;
-font-family: 'Reenie Beanie', cursive;
-font-family: 'WindSong', cursive; */
+.card {
+  margin: 17px 0px 0px 12px;
+  font-size: 23px;
+}
 
-.image-container__text-card-one,
-.image-container__number-card-one,
+.image-container__text-card,
+.image-container__text-card-u,
+.image-container__number-card-u,
+.image-container__number-card-u-two,
+.image-container__number-card {
+  text-shadow: 2px 2px 2px;
+  position: absolute;
+  color: #FF6E66;
+}
+
+.image-container__text-card,
+.image-container__text-card-u {
+  margin: -180px 0px 0px 270px;
+}
+
+.image-container__number-card,
+.image-container__number-card-u-two {
+  margin: -164px 0px 0px 281px;
+  font-size: 30px;
+}
+
+.image-container__number-card-u {
+  margin: -164px 0px 0px 268px;
+  font-size: 30px;
+}
+
+.image-container__text-card-u,
+.image-container__number-card-u,
+.image-container__number-card-u-two {
+  color: #FF6E66;
+}
+
 .text__top-text-one-card-one,
 .text__top-text-two-card-one,
-.url__url-text-card-one,
 .text__bottom-text-one-card-one,
 .text__bottom-text-two-card-one,
 .text__bottom-text-three-card-one,
 .text__bottom-card-number-card-one,
 .text__top-text-one-four-card-one {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Kristi', cursive;
 }
 
-.image-container__text-card-two,
-.image-container__number-card-two,
 .text__top-text-one-card-two,
 .text__top-text-two-card-two,
-.url__url-text-card-two,
 .text__bottom-text-one-card-two,
 .text__bottom-text-two-card-two,
 .text__bottom-text-three-card-two,
 .text__bottom-card-number-card-two,
 .text__top-text-one-four-card-two {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Megrim', cursive;
 }
 
-.image-container__text-card-three,
-.image-container__number-card-three,
 .text__top-text-one-card-three,
 .text__top-text-two-card-three,
-.url__url-text-card-three,
 .text__bottom-text-one-card-three,
 .text__bottom-text-two-card-three,
 .text__bottom-text-three-card-three,
 .text__bottom-card-number-card-three,
 .text__top-text-one-four-card-three {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Fuggles', cursive;
 }
-.image-container__text-card-four,
-.image-container__number-card-four,
+
 .text__top-text-one-card-four,
 .text__top-text-two-card-four,
-.url__url-text-card-four,
 .text__bottom-text-one-card-four,
 .text__bottom-text-two-card-four,
 .text__bottom-text-three-card-four,
 .text__bottom-card-number-card-four,
 .text__top-text-one-four-card-four {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Major Mono Display', monospace;
 }
 
-.image-container__text-card-five,
-.image-container__number-card-five,
 .text__top-text-one-card-five,
 .text__top-text-two-card-five,
-.url__url-text-card-five,
 .text__bottom-text-one-card-five,
 .text__bottom-text-two-card-five,
 .text__bottom-text-three-card-five,
 .text__bottom-card-number-card-five,
 .text__top-text-one-four-card-five {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Palette Mosaic', cursive;
 }
-.image-container__text-card-six,
-.image-container__number-card-six,
+
 .text__top-text-one-card-six,
 .text__top-text-two-card-six,
-.url__url-text-card-six,
 .text__bottom-text-one-card-six,
 .text__bottom-text-two-card-six,
 .text__bottom-text-three-card-six,
 .text__bottom-card-number-card-six,
 .text__top-text-one-four-card-six {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Qahiri', sans-serif;
 }
-.image-container__text-card-seven,
-.image-container__number-card-seven,
+
 .text__top-text-one-card-seven,
 .text__top-text-two-card-seven,
-.url__url-text-card-seven,
 .text__bottom-text-one-card-seven,
 .text__bottom-text-two-card-seven,
 .text__bottom-text-three-card-seven,
 .text__bottom-card-number-card-seven,
 .text__top-text-one-four-card-seven {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'WindSong', cursive;
 }
-.image-container__text-card-eight,
-.image-container__number-card-eight,
+
 .text__top-text-one-card-eight,
 .text__top-text-two-card-eight,
-.url__url-text-card-eight,
 .text__bottom-text-one-card-eight,
 .text__bottom-text-two-card-eight,
 .text__bottom-text-three-card-eight,
 .text__bottom-card-number-card-eight,
 .text__top-text-one-four-card-eight {
-  margin: 17px 0px 0px 12px;
-  font-size: 23px;
   font-family: 'Reenie Beanie', cursive;
 }
 
@@ -437,21 +429,36 @@ font-family: 'WindSong', cursive; */
   margin: 0px 0px 0px 12px;
 }
 
+.text__top-text-one-card-four {
+  font-size: 13px;
+}
+
 .text__top-text-two-card-four {
   font-size: 11px;
   margin: 10px 0px 0px 12px
 }
 
-.text__top-text-one-card-four {
-  font-size: 13px;
+.url__url-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90px;
+  font-family: 'Hachi Maru Pop', cursive;
+  width: 300px;
+  font-size: 11px;
+  text-align: center;
 }
 
-.text__url {
+.text__url,
+.text__url-four {
   height: 55px;
   width: 300px;
   background-color: #F0E6E7;
   position: absolute;
-  margin: 115px 0px 0px 24px;
+  margin: 38px 0px 0px 24px;
+}
+
+.text__url-four {
+  margin-top: 47px;
 }
 
 .image-container__image {
