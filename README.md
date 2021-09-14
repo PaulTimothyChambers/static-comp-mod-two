@@ -36,7 +36,7 @@
 
 ## Access to Project
 
-* [Click Here for Published Project]()
+* [Click Here for Published Project](https://paultimothychambers.github.io/static-comp-mod-two/)
 
 
 ## Contributors
